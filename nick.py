@@ -412,21 +412,28 @@ def linex():
 	print('\033[1;37m----------------------------------------------')
 
 #------------------[ LOGO-LAKNAT ]-----------------#
-logo=("""\n
-____________ _____ _   _  ________   __
-|  ___| ___ \  ___| \ | ||___  /\ \ / /
-| |_  | |_/ / |__ |  \| |   / /  \ V / 
-|  _| |    /|  __|| . ` |  / /    \ /  
-| |   | |\ \| |___| |\  |./ /___  | |  
-\_|   \_| \_\____/\_| \_/\_____/  \_/  
+logo=(""""")n/
+  _________   _____   ____ _____________    _________   ____
+               _              _           _             _        
+        /\ \     _     /\ \       /\ \           /\_\      
+       /  \ \   /\_\   \ \ \     /  \ \         / / /  _   
+      / /\ \ \_/ / /   /\ \_\   / /\ \ \       / / /  /\_\ 
+     / / /\ \___/ /   / /\/_/  / / /\ \ \     / / /__/ / / 
+    / / /  \/____/   / / /    / / /  \ \_\   / /\_____/ /  
+   / / /    / / /   / / /    / / /    \/_/  / /\_______/   
+  / / /    / / /   / / /    / / /          / / /\ \ \      
+ / / /    / / /___/ / /__  / / /________  / / /  \ \ \     
+/ / /    / / //\__\/_/___\/ / /_________\/ / /    \ \ \    
+\/_/     \/_/ \/_________/\/____________/\/_/      \_\_\   
+                                                           
                                                                             
 \033[1;37m----------------------------------------------
-\033[1;32m【✪】SC ONWER   ✯  ⚠️ FRE NZY ⚠️
-\033[1;32m【✪】ON FB     ✯  FRE NZY
-\033[1;32m【✪】GROUP    ✯  [ DARK SIDE ]😈🐻🤞
-\033[1;32m【✪】ON REVIEW ✯  XD HEAR
-\033[1;32m【✪]   SC VERSON✯  v1
-\033[1;37m----- DHERAI FURKINXA BHANA APPROVAL JANXA VAI -""")
+\033[1;32m【✪】AUTHOR ✯   NICK X FRENZY
+\033[1;32m【✪】ON FB    ✯  NICK DON
+\033[1;32m【✪】GROUP  ✯  [ DARK SIDE ]  
+\033[1;32m【✪.    ON REVIEW ✯  XD HEAR
+\033[1;32m【✪     SC VERSION  ✯ v1
+\033[1;37m-----TERO BAU KO CMD USE GAR-""")
 def banner():
 	print(logo)
 
@@ -556,7 +563,7 @@ def login():
 
 			menu(sy2,sy3)
 
-		except KeyError:laga
+		except KeyError:
 
 			login123()
 
@@ -613,7 +620,7 @@ def login_lagi334():
 
 					linex()
 
-					animation(f'\033[0m \u001b[36m>>\033[1;37m LOGIN TOKEN/COOKIE GAYO NEW HAL ')
+					animation(f'\033[0m \u001b[36m>>\033[1;37m LOGIN TOKEN/COOKIE EXPIRED')
 
 					exit()
 
@@ -715,7 +722,7 @@ def menu(my_name,my_id):
 
 	except IOError:
 
-		print('[×] COOKIE WRONG')
+		print('[×] INVIALD COOKIE ')
 
 		time.sleep(5)
 
@@ -738,7 +745,7 @@ def menu(my_name,my_id):
 
 	linex()
 
-	_____cowok__pink_____ = input(' CHOOSE GAR : ')
+	_____cowok__pink_____ = input(' CHOOSE : ')
 
 	if _____cowok__pink_____ in ['1']:
 
@@ -786,7 +793,7 @@ def menu(my_name,my_id):
 
 		linex()
 
-		animation(' [✓] LOGOUT BHIYO ARKO HAL ')
+		animation(' [✓] DONE LOGOUT ')
 
 		exit()
 
@@ -794,7 +801,7 @@ def menu(my_name,my_id):
 
 		linex()
 
-		animation(' [×] WRONG BHIYO  ')
+		animation(' [×] SELECT CORRECTLY ')
 
 		back()
 
@@ -1166,9 +1173,9 @@ def setting():
 
 	linex()
 
-	print(" [\u001b[36m1\033[1;37m] OLD IDZ")
+	print(" [\u001b[36m1\033[1;37m] FREEFIRE IDZ")
 
-	print(" [\u001b[36m2\033[1;37m] NEW IDZ")
+	print(" [\u001b[36m2\033[1;37m] TIKTOK IDZ")
 
 	print(" [\u001b[36m3\033[1;37m] BOTH MIX IDZ")
 
@@ -1404,7 +1411,7 @@ def crack(idf,pwv):
 
 	bo = random.choice([m,k,h,b,u,x])
 
-	sys.stdout.write(f"\r {P}[FRENZY-XD]{P} {P}{loop}{P}/{P}{len(id)}{P} OK{P}[{H}{ok}{P}] [{P}{'{:.0%}'.format(loop/float(len(id)))}{P}]  "),
+	sys.stdout.write(f"\r {P}[NICK-DON]{P} {P}{loop}{P}/{P}{len(id)}{P} OK{P}[{H}{ok}{P}] [{P}{'{:.0%}'.format(loop/float(len(id)))}{P}]  "),
 
 	sys.stdout.flush()
 
@@ -1570,4 +1577,4 @@ if __name__=='__main__':
 
 	login()
 
-#LOTS OF LOVE FROM FRENNZY 🤞⚠️
+#LOTS OF LOVE FROM FRENZY🤞
